@@ -49,14 +49,14 @@ smoking_status_dict = {"never smoked": 2, "formerly smoked": 1, "smokes": 3, "Un
 # Prepare input for prediction
 input_data = [
     gender_dict[gender],
-    age,
+    age[age],
     hypertension_dict[hypertension],
     heart_disease_dict[heart_disease],
     ever_married_dict[ever_married],
     work_type_dict[work_type],
     residence_type_dict[residence_type],
-    avg_glucose_level,
-    bmi,
+    avg_glucose_level[avg_glucose_level],
+    bmi[bmi],
     smoking_status_dict[smoking_status]
 ]
 

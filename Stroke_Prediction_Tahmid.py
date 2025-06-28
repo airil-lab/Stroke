@@ -4,7 +4,7 @@ import joblib
 import numpy as np
 
 # Load the trained Random Forest model
-model = joblib.load("best_rf_model.pkl")  # Ensure this file is in the same directory
+model = joblib.load("best_model.pkl")  # Ensure this file is in the same directory
 
 # Function to make predictions
 def predict(input_data):

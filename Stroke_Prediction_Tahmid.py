@@ -13,12 +13,12 @@ def predict(input_data):
     return prediction[0], probability[0][1]
 
 # Streamlit app interface
-st.set_page_config(page_title="Stroke Risk Predictor", layout="centered")
-st.title("🧠 Stroke Risk Predictor using Random Forest")
+st.set_page_config(page_title="X-Stroke-AI", layout="centered")
+st.title("X-Stroke-AI: Stroke Risk Predictor")
 
 st.markdown("""
-Welcome to the **Stroke Risk Predictor**.  
-Please enter the required health parameters to assess your risk of stroke.
+Welcome to the **X-Stroke-AI: Stroke Risk Predictor**: A Hybrid Machine Leanring Approach for
+Early-Stage Stroke Prediction. Please enter the required health parameters to assess your risk of stroke.
 """)
 
 # Layout in two columns

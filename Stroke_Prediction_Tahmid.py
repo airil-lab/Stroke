@@ -8,8 +8,8 @@ model = joblib.load("best_model.pkl")  # Ensure this file is in the same directo
 
 # Function to make predictions
 def predict(input_data):
-    prediction = model.predict([input_data])
-    probability = model.predict_proba([input_data])
+    prediction = stacking_model.predict([input_data])
+    probability = stacking_model.predict_proba([input_data])
     return prediction[0], probability[0][1]
 
 # Streamlit app interface
